@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="icon" type="images/x-icon" href="https://tse1.mm.bing.net/th?id=OIP._WCZb5244AOE5CFCWpHFgQHaHa&pid=Api&rs=1&c=1&qlt=95&w=110&h=110" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/81d73e8e4d.js"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>guess the number</h1>
+    <main class="total">
+        <h2>game started</h2>
+        <div class="aboutgame">
+            <p>system generated number<br>
+                guess the number! (1-10)
+
+            </p>
+            <div class="result">result</div>
+
+        </div>
+        <input type="number" class="input" placeholder="guess number" maxlength="2">
+        <button onclick="gameStart()">submit</button>
+      <button onclick="reset()">
+        play again <i class="fa-solid fa-rotate-right"></i>
+      </button>
+    </main>
+</body>
+</html>
+<script src="script.js"></script>
